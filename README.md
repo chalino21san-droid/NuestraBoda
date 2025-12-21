@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¡Nos Casamos! - Juliana & Camilo</title>
+    <title>¡Nos Casamos! - Juana & Juan</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -98,17 +98,17 @@
     <div class="invitation">
         <div class="floral-top"></div>
         <h1>¡Nos Casamos!</h1>
-        <h2>Juliana y Camilo</h2>
+        <h2>Juana y Juan</h2>
         <p>Queremos compartir contigo la felicidad de nuestra unión.</p>
         <div class="details">
             <div class="detail">
                 <h3>Día</h3>
-                <p>24 de Junio</p>
+                <p>6 de Mayo</p>
             </div>
             <div class="separator"></div>
             <div class="detail">
                 <h3>Lugar</h3>
-                <p>Calle Cualquiera 123,<br>Cualquier Lugar</p>
+                <p>Cabecera Indigenas/Villa de allende,<br>Arriba del parque con la familia sanchez</p>
             </div>
             <div class="separator"></div>
             <div class="detail">
@@ -116,9 +116,9 @@
                 <p>4:00 P.M.</p>
             </div>
         </div>
-        <a href="https://www.google.com/maps/place/Calle+Cualquiera+123,+Cualquier+Lugar" class="map-button" target="_blank">Ver en Google Maps</a>
+        <a href="https://maps.app.goo.gl/Px3zd2VqAXigspcP8" class="map-button" target="_blank">Ver en Google Maps</a>
         <p>Lluvia de sobres</p>
-        <p class="confirm">CONFIRMAR ASISTENCIA: (2) PERSONAS</p>
+        <p class="confirm">CONFIRMAR ASISTENCIA:</p>
     </div>
 </body>
 </html>
