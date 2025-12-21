@@ -4,35 +4,99 @@
     <title>Invitación de Boda</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #fce4ec;
-            text-align: center;
-            padding: 40px;
-        }
-        .card {
-            background: white;
-            max-width: 500px;
-            margin: auto;
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #c2185b;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 20px;
-            background: #c2185b;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 16px;
-        }
-        .btn:hover {
-            background: #8c1642;
-        }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Un color de fondo muy claro */
+  background-image: url('URL_DE_TU_IMAGEN_DE_FONDO.jpg'); /* Reemplaza con la URL de tu imagen de acuarela */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Para que el fondo no se mueva al hacer scroll */
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  position: relative; /* Para posicionar los adornos */
+}
+
+/* Adornos Florales */
+.floral-top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  background-image: url('URL_DEL_ADORNO_FLORAL_SUPERIOR_IZQUIERDO.png'); /* Reemplaza con la URL de tu adorno */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.floral-top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  background-image: url('URL_DEL_ADORNO_FLORAL_SUPERIOR_DERECHO.png'); /* Reemplaza con la URL de tu adorno */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.floral-bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  background-image: url('URL_DEL_ADORNO_FLORAL_INFERIOR_IZQUIERDO.png'); /* Reemplaza con la URL de tu adorno */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.floral-bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  background-image: url('URL_DEL_ADORNO_FLORAL_INFERIOR_DERECHO.png'); /* Reemplaza con la URL de tu adorno */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Anillos */
+.rings {
+  width: 120px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  margin: 0 auto 20px;
+  background-image: url('URL_DE_LA_IMAGEN_DE_LOS_ANILLOS.png'); /* Reemplaza con la URL de tu imagen de anillos */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Brush Script MT', cursive; /* Una fuente script elegante */
+  font-size: 3em;
+  color: #8B4513; /* Un tono marrón */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Líneas Separadoras */
+.separator {
+  border-top: 2px solid #bbb;
+  margin: 20px 0;
+}
     </style>
 </head>
 <body>
