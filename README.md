@@ -32,7 +32,7 @@
   left: 10px;
   width: 100px; /* Ajusta el tamaño según sea necesario */
   height: auto;
-  background-image: url('URL_DEL_ADORNO_FLORAL_SUPERIOR_IZQUIERDO.png'); /* Reemplaza con la URL de tu adorno */
+  <iframe src="https://assets.pinterest.com/ext/embed.html?id=372461831703396005" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -43,7 +43,7 @@
   right: 10px;
   width: 100px; /* Ajusta el tamaño según sea necesario */
   height: auto;
-  background-image: url('URL_DEL_ADORNO_FLORAL_SUPERIOR_DERECHO.png'); /* Reemplaza con la URL de tu adorno */
+  <iframe src="https://assets.pinterest.com/ext/embed.html?id=372461831703396005" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -54,7 +54,7 @@
   left: 10px;
   width: 100px; /* Ajusta el tamaño según sea necesario */
   height: auto;
-  background-image: url('URL_DEL_ADORNO_FLORAL_INFERIOR_IZQUIERDO.png'); /* Reemplaza con la URL de tu adorno */
+  <iframe src="https://assets.pinterest.com/ext/embed.html?id=372461831703396005" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -65,7 +65,7 @@
   right: 10px;
   width: 100px; /* Ajusta el tamaño según sea necesario */
   height: auto;
-  background-image: url('URL_DEL_ADORNO_FLORAL_INFERIOR_DERECHO.png'); /* Reemplaza con la URL de tu adorno */
+  <iframe src="https://assets.pinterest.com/ext/embed.html?id=372461831703396005" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -75,7 +75,7 @@
   width: 120px; /* Ajusta el tamaño según sea necesario */
   height: auto;
   margin: 0 auto 20px;
-  background-image: url('URL_DE_LA_IMAGEN_DE_LOS_ANILLOS.png'); /* Reemplaza con la URL de tu imagen de anillos */
+  <iframe src="https://assets.pinterest.com/ext/embed.html?id=372461831703396005" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
   background-size: contain;
   background-repeat: no-repeat;
 }
