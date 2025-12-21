@@ -16,12 +16,12 @@
             min-height: 100vh;
         }
         .invitation {
-            width: 90%; /* Ancho relativo al contenedor padre */
+            width: 80%;
             max-width: 600px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            padding: 20px; /* Reducir el padding */
+            padding: 30px;
             text-align: center;
             position: relative;
         }
@@ -37,90 +37,60 @@
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             overflow: hidden;
-            height: 120px; /* Reducir la altura */
+            height: 150px;
         }
         h1 {
             font-family: 'Brush Script MT', cursive;
-            font-size: 2.5em; /* Reducir el tamaño */
+            font-size: 3.5em;
             color: #333;
             margin-bottom: 5px;
         }
         h2 {
-            font-size: 1.2em; /* Reducir el tamaño */
+            font-size: 1.5em;
             color: #555;
             margin-top: 0;
             font-style: italic;
         }
         p {
-            font-size: 1em; /* Reducir el tamaño */
-            line-height: 1.4; /* Reducir el espaciado */
-            margin-bottom: 15px; /* Reducir el margen */
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
         .details {
             display: flex;
-            flex-direction: column; /* Apilar los detalles en pantallas pequeñas */
-            align-items: center; /* Centrar los detalles */
-            margin-top: 20px; /* Reducir el margen */
+            justify-content: space-around;
+            margin-top: 30px;
         }
         .detail {
             text-align: center;
-            margin-bottom: 15px; /* Espacio entre los detalles */
         }
         .detail h3 {
-            font-size: 1.1em; /* Reducir el tamaño */
+            font-size: 1.2em;
             color: #555;
             margin-bottom: 5px;
         }
         .detail p {
-            font-size: 0.9em; /* Reducir el tamaño */
+            font-size: 1em;
             margin-bottom: 0;
         }
         .separator {
-            border-left: none; /* Eliminar la línea vertical */
-            border-top: 1px solid #bbb; /* Añadir una línea horizontal */
-            margin: 10px 0; /* Reducir el margen */
-            height: auto; /* Ajustar la altura automáticamente */
-            width: 80%; /* Ancho relativo */
+            border-left: 1px solid #bbb;
+            margin: 0 20px;
+            height: 50px;
         }
         .confirm {
-            margin-top: 30px; /* Reducir el margen */
-            font-size: 0.8em; /* Reducir el tamaño */
+            margin-top: 40px;
+            font-size: 0.9em;
             color: #777;
         }
         .map-button {
             display: inline-block;
-            padding: 8px 16px; /* Reducir el padding */
+            padding: 10px 20px;
             background-color: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            margin-top: 15px; /* Reducir el margen */
-            font-size: 0.9em; /* Reducir el tamaño */
-        }
-
-        /* Media Query para pantallas más pequeñas (móviles) */
-        @media screen and (max-width: 600px) {
-            .invitation {
-                padding: 15px; /* Reducir el padding */
-            }
-            .floral-top {
-                height: 80px; /* Reducir la altura */
-            }
-            h1 {
-                font-size: 2em; /* Reducir el tamaño */
-            }
-            h2 {
-                font-size: 1em; /* Reducir el tamaño */
-            }
-            p {
-                font-size: 0.9em; /* Reducir el tamaño */
-            }
-            .detail h3 {
-                font-size: 1em; /* Reducir el tamaño */
-            }
-            .detail p {
-                font-size: 0.8em; /* Reducir el tamaño */
-            }
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -138,7 +108,7 @@
             <div class="separator"></div>
             <div class="detail">
                 <h3>Lugar</h3>
-                <p>Cabecera Indígenas/Villa de allende, Arriba del parque con la familia sanchez</p>
+                <p>Cabecera indigenas/Villa de allende,<br>Arriba del parque municipal con la familia sanchez</p>
             </div>
             <div class="separator"></div>
             <div class="detail">
@@ -146,8 +116,8 @@
                 <p>4:00 P.M.</p>
             </div>
         </div>
-        <a href="https://www.google.com/maps/place/Cabecera+Indigenas,+Villa+de+Allende,+Mexico" class="map-button" target="_blank">Ver en Google Maps</a>
-        <p>Lluvia de sobres</p>
+        <a href="https://maps.app.goo.gl/Px3zd2VqAXigspcP8" class="map-button" target="_blank">Ver en Google Maps</a>
+        <p>TE ESPERAMOS</p>
         <p class="confirm">CONFIRMAR ASISTENCIA:</p>
     </div>
 </body>
