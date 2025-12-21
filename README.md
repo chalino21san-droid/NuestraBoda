@@ -31,7 +31,7 @@
             left: 0;
             width: 100%;
             height: auto;
-            background-image: url('URL_DE_LA_IMAGEN_DE_FLORES_SUPERIOR.jpg');
+            background-image: url('https://pin.it/6DDavRVrs');
             background-size: cover;
             background-position: top;
             border-top-left-radius: 10px;
