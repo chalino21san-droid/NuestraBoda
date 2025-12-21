@@ -31,7 +31,7 @@
             left: 0;
             width: 100%;
             height: auto;
-            background-image: url('https://pin.it/6DDavRVrs');
+            background-image: url('plantilla(1).jfif');
             background-size: cover;
             background-position: top;
             border-top-left-radius: 10px;
